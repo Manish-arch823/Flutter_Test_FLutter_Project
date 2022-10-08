@@ -9,19 +9,22 @@ This project is a starting point for a Flutter application.
 
 To Run This Project 
 
-A few resources to get you started if this is your first Flutter project:
+. Download flutter SDK 
+Link https://docs.flutter.dev/get-started/install/windows
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+. Update your path
+If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment variable:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter_Test_FLutter_Project" 
-"# Flutter_Test_FLutter_Project" 
-"# Flutter_Test_FLutter_Project" 
-#� �F�l�u�t�t�e�r�_�T�e�s�t�_�F�L�u�t�t�e�r�_�P�r�o�j�e�c�t�
-�
-�#� �F�l�u�t�t�e�r�_�T�e�s�t�_�F�L�u�t�t�e�r�_�P�r�o�j�e�c�t�
-�
-�
+From the Start search bar, enter ‘env’ and select Edit environment variables for your account.
+Under User variables check if there is an entry called Path:
+If the entry exists, append the full path to flutter\bin using ; as a separator from existing values.
+If the entry doesn’t exist, create a new user variable named Path with the full path to flutter\bin as its value.
+
+.  Go to Root Directory 
+D:\flutter_Project\fluttertest 
+
+. Open this path in  power shell 
+. In terminal Type 
+. flutter run 
+
+
